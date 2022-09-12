@@ -9,18 +9,14 @@ html, body{
     background-color: #8C52FF;
     align-items: center;
     padding: 60px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
-#t1{
+#titulo{
     font-size: 60px;
     text-align: center;
     color: #202023;
     font-family: 'League Spartan', sans-serif;
-}
-#img1{
-    margin: 0;
-    width: 700px;
 }
 #img2{
     margin: 0;
@@ -28,7 +24,7 @@ html, body{
 }
 .sec1{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #202023;
     align-items: center;
     padding-top: 90px;
@@ -42,8 +38,47 @@ html, body{
 p {
     color: #BBBBBB;
     font-size: 20px;
+    text-align: center;
 }
 #p3{
     color: #CFCECE;
     font-family: 'League Spartan', sans-serif;
 }
+.text{
+    text-align: center;
+    margin-left: 70px;
+}
+.sec2{
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#descarr{
+    color: #8C52FF;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+}
+.etapa1{
+    background-color: #8C52FF;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#et1{
+    margin-left: 30px;
+    width: 641px;
+    height: 79px;
+    left: 74px;
+    top: 110px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 79px;
+    color: #000000;
+}
+
