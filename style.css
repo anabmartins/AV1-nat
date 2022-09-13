@@ -53,20 +53,28 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding: 90px;
+}
+#texto-descarregador{
+    color: #202020; 
+    padding: 30px; 
+    font-size: 25px;
 }
 #descarr{
     color: #8C52FF;
     font-family: 'League Spartan', sans-serif;
     font-size: 50px;
 }
-.etapa1{
+.sec3{
     background-color: #8C52FF;
     justify-content: center;
     align-items: center;
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding: 90px 90px;
+}
+#section2{
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 #et1{
     margin-left: 30px;
@@ -81,4 +89,47 @@ p {
     line-height: 79px;
     color: #000000;
 }
-
+#etapa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 90px;
+}
+#texto-etapa1{
+    text-align: left;
+    margin-left:10rem;
+    color: #E6E6E6;
+    font-size: 26px;
+}
+#et2{
+    margin-left: 30px;
+    width: 713px;
+    height: 79px;
+    left: 74px;
+    top: 110px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 79px;
+    color: #8C52FF;
+}
+#sec4{
+    background-color: #202023;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding: 90px 90px;
+}
+#textos-et-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 90px;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
