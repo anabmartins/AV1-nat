@@ -35,7 +35,7 @@ html, body{
     font-family: 'League Spartan', sans-serif;
     font-size: 50px;
 }
-p {
+#txt-t {
     color: #BBBBBB;
     font-size: 20px;
     text-align: center;
@@ -46,7 +46,7 @@ p {
 }
 .text{
     text-align: center;
-    margin-left: 70px;
+    margin-left: 20px;
 }
 .sec2{
     background-color: #F7F7F7;
@@ -70,6 +70,7 @@ p {
     justify-content: center;
     align-items: center;
     padding-top: 90px;
+    padding-bottom: 90px;
     padding: 90px 90px;
 }
 #section2{
@@ -93,11 +94,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 90px 90px;
+    padding: 40px;
 }
 #texto-etapa1{
     text-align: left;
-    margin-left:25px;
     color: #E6E6E6;
     font-size: 26px;
 }
@@ -205,3 +205,50 @@ nav{
     line-height: 79px;
     color: #111;
 }
+body::-webkit-scrollbar{
+    width: 1em;
+    }
+    body::-webkit-scrollbar-track{
+    background: #8C52FF;
+    
+    }
+    body::-webkit-scrollbar-thumb{
+      background: #F7F7F7;
+      border-radius: 100vw;
+    }
+    body::-webkit-scrollbar-thumb:hover{
+      background: #202023;
+    }
+    .legenda{
+        text-align: center;
+        align-items: center;
+    }
+    card-text {
+        background-color: #31136d4b;
+    }
+    #btnTop {
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: #c8adff96;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .arrow {
+        border: solid #000000;
+        border-width: 0 7px 7px 0;
+        padding: 5px;
+        display: inline-block;
+    }
+    
+    .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+    }
