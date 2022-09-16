@@ -176,14 +176,18 @@ ul {
 .sala p{
     color: #111;
     text-align: right;
+    font-size: 22px;
     padding: 20px;
 }
 .sala #txt2{
     font-weight: lighter;
 }
 nav{
-    background-color: #8C52FF;
+    background-color:#8C52FF;
     padding: 30px;
+}
+li.nav-item{
+    font-weight:600;
 }
 #sec6{
     justify-content: center;
@@ -251,4 +255,36 @@ body::-webkit-scrollbar{
     .up {
         transform: rotate(-135deg);
         -webkit-transform: rotate(-135deg);
+    }
+    #reciclagem{
+        background-color: #202023;
+        justify-content: center;
+        align-items: center;
+        padding-top: 90px;
+        padding: 90px 90px;
+    }
+    #res{
+    margin-left: 30px;
+    width: 713px;
+    height: 79px;
+    left: 74px;
+    top: 110px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 79px;
+    color: #8C52FF;
+    }
+    .legenda{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(196, 196, 196);
+        margin-top: 15px;
+    }
+    #txt-al{
+        color: #d8d8d8;
+        font-size: 23px;
+        text-align: left;
     }
