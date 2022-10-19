@@ -288,3 +288,9 @@ body::-webkit-scrollbar{
         font-size: 23px;
         text-align: left;
     }
+    .col-lg-6 #noi{
+        width: 95%;
+    }
+    .col-lg-6 #esq{
+        width: 45%;
+    }
